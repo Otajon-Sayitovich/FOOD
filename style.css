@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(26, 26, 53);
+}
+
+.container{
+    border-bottom: 5px solid rgb(245, 80, 121);
+}
+
+.food{
+    height: 10vh;
+    font-size: 35px;
+}
+
+section.sec1{
+    background: url(back.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    box-sizing: border-box;
+} 
+
+.circle{
+    color: rgb(245, 80, 121);
+    font-size: 28vh;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    position: relative;
+    top: 250px;
+    left: 370px;
+}
+
+.fa-chevron-down {
+    font-size: 35px;
+    margin-top: 120px;
+} 
+
+.text{
+    text-align: center;
+    padding: 25px;
+}
+
+.ps{
+    padding: 35px;
+}
+
+.img{
+    width: 100%;
+    padding: 0;
+}
+
+.food2{
+    padding: 25px;
+    width: 210px;
+}
+
+.iconcs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.icon{
+    padding: 8px;
+}
+
+footer{
+    width: 100%;
+    height: 15vh;
+    margin-top: 150px;
+    background-color: rgb(27, 27, 36);
+    text-align: center;
+}
+
+.lr{
+    color: rgb(233, 186, 178);
+}
+
+.cen{
+    color: white;
+}
+
+.foot{
+    padding-top: 30px;
+}
+.none{
+    border-bottom: 5px solid red;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+
+
+@media screen and (max-width: 370px){
+    .logo{
+        top: 200px;
+        left: 60px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 370px){
+    .logo{
+        top: 150px;
+        left: 130px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+    .logo{
+        left: 250px;
+        width: 400px;
+    }
+}
+
+
